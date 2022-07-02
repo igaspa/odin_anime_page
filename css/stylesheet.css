@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+    position: sticky;
+    top: 0;
+}
+
+.navLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-size: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+#logoPicture {
+    width: 100px;
+    height: 50px;
+}
+
+#aboutAnime {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 180px;
+}
+
+#animeCharacters {
+    width: 400px;
+    height: 300px;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    padding: 0 20px;
+}
+
+#generalAnime {
+    font-size: 25px;
+    color: #f9faf8;
+    padding: 0 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+
+}
+
+#signUp,
+#signUpSecond {
+    padding: 10px 20px;
+}
+
+#differentAnimes {
+    height: 500px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 0 300px;
+}
+
+#differentAnimes img {
+    height: 210px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+#naruto,
+#hunter,
+#myHeroAcademia,
+#deathnote {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 50px 10px;
+}
+
+#narutoDetails,
+#myHeroAcademiaDetails,
+#hunterDetails,
+#deathnoteDetails {
+    display: block;
+    padding: 5px 10px;
+    font-size: 10px;
+    width: 190px;
+}
+
+.aboutAnime {
+    height: 10px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 300px 10px;
+}
+
+#inspoQuote {
+    display: block;
+    background-color: #ffffff;
+    padding: 50px 300px 50px 400px;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2947;
+}
+
+#author {
+    padding: 0px 90px 0px 500px;
+    width: 300px;
+    color: #bdbdbd;
+    font-size: 26px;
+}
+
+#contact {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 400px 50px 400px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#contactText {
+    display: block;
+    padding: 100px 0px;
+}
+
+#contactText h2 {
+    width: 300px;
+    color: white;
+}
+
+#contactText p {
+    width: 300px;
+    color: white;
+}
+
+#contact button {
+    color: white;
+    border-color: white;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    color: white;
+    height: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
