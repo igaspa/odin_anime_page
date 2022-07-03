@@ -123,35 +123,38 @@ button {
 #inspoQuote {
     display: block;
     background-color: #ffffff;
-    padding: 50px 300px 50px 400px;
+    padding: 10px 300px;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 500px;
+    margin: auto;
+
 }
 
 #quote {
     font-size: 36px;
     color: #1f2947;
+    margin: auto;
 }
 
 #author {
-    padding: 0px 90px 0px 500px;
-    width: 300px;
+    padding: 0px 90px 0px 400px;
+    width: 200px;
     color: #bdbdbd;
     font-size: 26px;
+    margin: auto;
 }
 
 #contact {
     display: flex;
     background-color: #3882f6;
-    padding: 50px 400px 50px 400px;
+    padding: 10px 400px;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 00px;
     height: 70px;
     border-radius: 8px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin: auto;
 }
 
 #contactText {
